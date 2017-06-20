@@ -118,7 +118,7 @@
                         android:layout_height="match_parent"
                         android:layout_weight="4"
                         android:scaleType="fitXY"
-                        android:src="@drawable/has" />
+                        android:src="@drawable/has"/>
 
                     <View
                         android:layout_width="0dp"
@@ -136,32 +136,38 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/tv_title_2"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="Title"
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:textColor="#878787"/>
 
                     <TextView
+                        android:id="@+id/tv_author_2"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="center"
                         android:text="Author"
                         android:textSize="15sp"
-                        android:textStyle="italic" />
+                        android:textStyle="italic"
+                        android:textColor="#878787"/>
 
                     <TextView
+                        android:id="@+id/tv_description_2"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="6"
                         android:text="This is an demo content. This is an demo content. This is an demo content. This is an demo content. This is an demo content. This is an demo content. This is an demo content. This is an demo content. This is an demo content. This is an demo content. "
-                        android:textSize="14sp" />
+                        android:textSize="14sp"
+                        android:textColor="#878787"/>
 
                     <TextView
-                        android:id="@+id/iv_start"
+                        android:id="@+id/tv_start"
                         android:layout_width="match_parent"
                         android:layout_height="0dp"
                         android:layout_weight="2"
